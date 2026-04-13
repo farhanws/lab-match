@@ -92,34 +92,14 @@ function ApplicationCard({ app }) {
               </h4>
               <div className="flex flex-wrap gap-2">
                 {snap.resumeFile && (
-                  snap.resumeFile.dataUrl ? (
-                    <a
-                      href={snap.resumeFile.dataUrl}
-                      download={snap.resumeFile.name}
-                      className="flex items-center gap-1.5 bg-white rounded-lg px-3 py-1.5 border border-blue-200 text-blue-600 hover:bg-blue-50 transition-colors text-sm font-medium"
-                    >
-                      <FileText size={13} /> Download Resume
-                    </a>
-                  ) : (
-                    <div className="flex items-center gap-1.5 bg-white rounded-lg px-3 py-1.5 border border-gray-200 text-sm text-gray-500">
-                      <FileText size={13} /> {snap.resumeFile.name} (no file data)
-                    </div>
-                  )
+                  <div className="flex items-center gap-1.5 bg-white rounded-lg px-3 py-1.5 border border-blue-200 text-blue-700 text-sm font-medium">
+                    <FileText size={13} /> {snap.resumeFile.name}
+                  </div>
                 )}
                 {snap.transcriptFile && (
-                  snap.transcriptFile.dataUrl ? (
-                    <a
-                      href={snap.transcriptFile.dataUrl}
-                      download={snap.transcriptFile.name}
-                      className="flex items-center gap-1.5 bg-white rounded-lg px-3 py-1.5 border border-purple-200 text-purple-600 hover:bg-purple-50 transition-colors text-sm font-medium"
-                    >
-                      <FileText size={13} /> Download Transcript
-                    </a>
-                  ) : (
-                    <div className="flex items-center gap-1.5 bg-white rounded-lg px-3 py-1.5 border border-gray-200 text-sm text-gray-500">
-                      <FileText size={13} /> {snap.transcriptFile.name} (no file data)
-                    </div>
-                  )
+                  <div className="flex items-center gap-1.5 bg-white rounded-lg px-3 py-1.5 border border-purple-200 text-purple-700 text-sm font-medium">
+                    <FileText size={13} /> {snap.transcriptFile.name}
+                  </div>
                 )}
               </div>
             </div>

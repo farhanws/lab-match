@@ -158,6 +158,8 @@ export const initialApplications = [
       researchExperience: [
         { title: 'Research Assistant', lab: 'UW Data Science Lab', duration: 'Jan 2024 - Present', description: 'Worked on NLP pipeline for clinical text analysis.' }
       ],
+      resumeFile: { name: 'Alex_Johnson_Resume.pdf' },
+      transcriptFile: { name: 'Alex_Johnson_Transcript.pdf' },
     }
   },
   {
@@ -180,6 +182,8 @@ export const initialApplications = [
         { name: 'STAT 333 - Applied Regression', grade: 'A-' },
       ],
       researchExperience: [],
+      resumeFile: { name: 'Maya_Patel_Resume.pdf' },
+      transcriptFile: { name: 'Maya_Patel_Transcript.pdf' },
     }
   },
   {
@@ -205,6 +209,8 @@ export const initialApplications = [
       researchExperience: [
         { title: 'Independent Study', lab: 'Self-directed', duration: 'Summer 2025', description: 'Implemented PPO and SAC algorithms from scratch, trained agents on MuJoCo environments.' }
       ],
+      resumeFile: { name: 'Daniel_Lee_Resume.pdf' },
+      transcriptFile: { name: 'Daniel_Lee_Transcript.pdf' },
     }
   },
 ];
