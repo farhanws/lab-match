@@ -106,8 +106,8 @@ export const initialStudents = [
     transcriptName: null,
     classes: [
       { name: 'CS 540 - Intro to AI', grade: 'A' },
-      { name: 'CS 760 - Machine Learning', grade: 'A-' },
-      { name: 'CS 577 - Algorithms', grade: 'B+' },
+      { name: 'CS 760 - Machine Learning', grade: 'AB' },
+      { name: 'CS 577 - Algorithms', grade: 'B' },
     ],
     researchExperience: [
       { title: 'Research Assistant', lab: 'UW Data Science Lab', duration: 'Jan 2024 - Present', description: 'Worked on NLP pipeline for clinical text analysis.' }
@@ -152,8 +152,8 @@ export const initialApplications = [
       bio: 'Passionate about ML and its applications in healthcare.',
       classes: [
         { name: 'CS 540 - Intro to AI', grade: 'A' },
-        { name: 'CS 760 - Machine Learning', grade: 'A-' },
-        { name: 'CS 577 - Algorithms', grade: 'B+' },
+        { name: 'CS 760 - Machine Learning', grade: 'AB' },
+        { name: 'CS 577 - Algorithms', grade: 'B' },
       ],
       researchExperience: [
         { title: 'Research Assistant', lab: 'UW Data Science Lab', duration: 'Jan 2024 - Present', description: 'Worked on NLP pipeline for clinical text analysis.' }
@@ -202,8 +202,8 @@ export const initialApplications = [
       bio: 'Self-taught deep learning enthusiast. Built several personal projects in reinforcement learning and generative models.',
       classes: [
         { name: 'CS 540 - Intro to AI', grade: 'A' },
-        { name: 'MATH 521 - Analysis', grade: 'A-' },
-        { name: 'CS 537 - Operating Systems', grade: 'B+' },
+        { name: 'MATH 521 - Analysis', grade: 'AB' },
+        { name: 'CS 537 - Operating Systems', grade: 'B' },
         { name: 'MATH 341 - Linear Algebra', grade: 'A' },
       ],
       researchExperience: [
